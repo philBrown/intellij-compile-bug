@@ -1,0 +1,14 @@
+group 'com.papercut'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "com.typesafe.akka:akka-actor_2.11:2.3.6"
+}
